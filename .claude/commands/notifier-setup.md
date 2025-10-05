@@ -49,7 +49,6 @@ server:
 
 logging:
   level:
-    kz.berekebank.support.ai: DEBUG
     org.telegram: INFO
 ```
 

@@ -174,7 +174,7 @@ ClaudeNotifier/
 │   │   └── notification.sh                # Хук ожидания ввода (Notification)
 │   └── settings.json                      # Конфигурация хуков (локальная)
 ├── src/main/
-│   ├── kotlin/kz/berekebank/support/ai/
+│   ├── kotlin/kz/vanart/claudenotifier/
 │   │   ├── ClaudeNotifierApplication.kt   # Main класс
 │   │   ├── bot/
 │   │   │   └── ClaudeNotifierBot.kt       # Telegram бот

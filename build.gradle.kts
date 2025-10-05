@@ -5,7 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.4"
 }
 
-group = "kz.berekebank.support.ai"
+group = "kz.vanart.claudenotifier"
 version = "1.0-SNAPSHOT"
 
 repositories {
