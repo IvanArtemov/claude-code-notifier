@@ -1,8 +1,8 @@
-package kz.berekebank.support.ai.service
+package kz.vanart.claudenotifier.service
 
-import kz.berekebank.support.ai.bot.ClaudeNotifierBot
-import kz.berekebank.support.ai.dto.NotificationRequest
-import kz.berekebank.support.ai.dto.NotificationResponse
+import kz.vanart.claudenotifier.bot.ClaudeNotifierBot
+import kz.vanart.claudenotifier.dto.NotificationRequest
+import kz.vanart.claudenotifier.dto.NotificationResponse
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
 

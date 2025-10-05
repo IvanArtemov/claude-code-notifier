@@ -1,6 +1,6 @@
-package kz.berekebank.support.ai.config
+package kz.vanart.claudenotifier.config
 
-import kz.berekebank.support.ai.bot.ClaudeNotifierBot
+import kz.vanart.claudenotifier.bot.ClaudeNotifierBot
 import org.slf4j.LoggerFactory
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.event.ContextRefreshedEvent

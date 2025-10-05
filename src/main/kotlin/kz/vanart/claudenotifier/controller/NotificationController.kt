@@ -1,8 +1,8 @@
-package kz.berekebank.support.ai.controller
+package kz.vanart.claudenotifier.controller
 
-import kz.berekebank.support.ai.dto.NotificationRequest
-import kz.berekebank.support.ai.dto.NotificationResponse
-import kz.berekebank.support.ai.service.NotificationService
+import kz.vanart.claudenotifier.dto.NotificationRequest
+import kz.vanart.claudenotifier.dto.NotificationResponse
+import kz.vanart.claudenotifier.service.NotificationService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 

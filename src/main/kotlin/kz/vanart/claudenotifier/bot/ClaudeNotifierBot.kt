@@ -1,4 +1,4 @@
-package kz.berekebank.support.ai.bot
+package kz.vanart.claudenotifier.bot
 
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Value

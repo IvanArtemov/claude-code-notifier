@@ -1,4 +1,4 @@
-package kz.berekebank.support.ai
+package kz.vanart.claudenotifier
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

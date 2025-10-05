@@ -1,4 +1,4 @@
-package kz.berekebank.support.ai.dto
+package kz.vanart.claudenotifier.dto
 
 data class NotificationRequest(
     val chatId: String,
