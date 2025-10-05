@@ -89,6 +89,21 @@ If the user didn't provide Chat ID:
 
 2. Wait for the user to provide the Chat ID
 
+## Step 5.5: Create Local Configuration File
+
+Explain: "I will create a local configuration file `.claude/settings.local.json` with your Chat ID. This file is gitignored and will not be committed to the repository."
+
+Create the file `.claude/settings.local.json`:
+```json
+{
+  "env": {
+    "TELEGRAM_CHAT_ID": "[USER_CHAT_ID]"
+  }
+}
+```
+
+This allows users to keep their personal Chat ID separate from the project configuration.
+
 ## Step 6: Install Global Claude Code Hooks
 
 Explain: "I will now install hooks in your global Claude Code configuration (~/.claude/). This will enable notifications for ALL your Claude Code sessions."
