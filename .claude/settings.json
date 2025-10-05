@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/task-complete.sh"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/notification.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "env": {
+    "TELEGRAM_CHAT_ID": "215521261",
+    "CLAUDE_NOTIFIER_URL": "http://localhost:8080/api/notify"
+  }
+}

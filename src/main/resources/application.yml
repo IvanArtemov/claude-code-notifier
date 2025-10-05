@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+telegram:
+  bot:
+    username: ${TELEGRAM_BOT_USERNAME:YourBotUsername}
+    token: ${TELEGRAM_BOT_TOKEN:your-bot-token-here}
+
+logging:
+  level:
+    kz.berekebank.support.ai: DEBUG
+    org.telegram: INFO
